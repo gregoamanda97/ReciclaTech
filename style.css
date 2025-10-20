@@ -36,20 +36,14 @@ a {
   margin: -1%;
 }
 
-.logonav {
-  width: clamp(20px, 4vw, 30px);
-  height: clamp(20px, 4vw, 30px);
-  display: block;
-  margin-left: -5%;
-}
-
 .nav-links {
   margin: 1rem;
   list-style: none;
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  gap: 0.2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   text-decoration: none;
 }
 
@@ -66,6 +60,26 @@ a {
 
 .navlinks2:hover {
   color: #22c55e;
+}
+
+.navlinks3 {
+  list-style: none;
+  text-decoration: none;
+  background-color: #22c55e;
+  border: solid;
+  border-color: #22c55e;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 0rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 580;
+  color: white;
+  white-space: nowrap;
+}
+
+.navlinks3:hover {
+  color: #a3fdc4;
+  transition: color 0.3s ease;
 }
 
 .intro {
